@@ -1,0 +1,107 @@
+avatar:
+  url: /images/avatar.png
+  rounded: true
+  opacity: 1
+
+banner:
+  enable: true
+  title: 22 级丰中集结地
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: ri:arrow-down-s-line
+social:
+  #  - name: QQ
+  #    link: https://ti.qq.com/open_qq/index2.html?url=mqqapi%3a%2f%2fuserprofile%2ffriend_profile_card%3fsrc_type%3dweb%26version%3d1.0%26source%3d2%26uin%3d3285956207
+  #    icon: icon-qq-line
+  #    color: "#12B7F5"
+  - name: GitHub
+    link: https://github.com/dfgz2022
+    icon: ri:github-line
+    color: "#6e5494"
+reward:
+  enable: false
+pages:
+  - name: 小伙伴们
+    url: /links
+    icon: ri:genderless-line
+    color: dodgerblue
+notice:
+  enable: true
+  content: 来了就看看再走吧！
+comment:
+  enable: true
+  tips:
+    - 若您想及时得到回复提醒，建议跳转 GitHub Issues 评论。
+    - 若没有本文 Issue，您可以使用 Comment 模版新建。
+  candidates:
+    - waline
+    - utterances
+waline:
+  enable: true
+  serverURL: https://dfgz-comment.vercel.app
+  # visitor: true
+  comment: false
+
+#  crossorigin: anonymous
+
+#<script src="https://utteranc.es/client.js"
+#        repo="ssmzhn/ssmzhn.github.io"
+#        issue-term="pathname"
+#        theme="github-light"
+#        crossorigin="anonymous"
+#        async>
+#</script>
+footer:
+  since: 2021
+  live_time:
+    enable: true
+    prefix: 这个博客运行了
+    suffix: 
+    start_time: "2022-07-21T12:48:00"
+
+wordcloud:
+  enable: false
+
+codeblock:
+  copy_btn: true
+katex:
+  copy_tex: true
+  global: false
+
+#默哀
+mourn:
+  enable: true
+  days:
+    - "4-5"
+    - "12-13"
+    - "9-18"
+    - "5-12"
+    - "7-7"
+
+head:
+  css:
+    fonts: 
+      - https://fonts.loli.net/css?family=Saira
+      - https://fonts.loli.net/css?family=JetBrains%20Mono
+
+font:
+  cdn:
+    enable: true
+    lib:
+      - https://fonts.loli.net/css?family=Saira
+      - https://fonts.loli.net/css?family=JetBrains%20Mono
+  serif:
+    family: '''Songti SC'', ''Noto Serif SC'', STZhongsong, STKaiti, KaiTi, Roboto, serif'
+    weight: 900
+  sans_serif:
+    family: 'Saira, ''PingFang SC'', ''Microsoft YaHei'', Roboto, Arial, sans-serif'
+    weight: 400
+  monospace:
+    family: '''JetBrains Mono'', ''Source Code Pro'', ''Courier New'', Courier, Consolas, Monaco, monospace'
+
+
