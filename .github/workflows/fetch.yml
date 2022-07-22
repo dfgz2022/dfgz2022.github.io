@@ -1,0 +1,23 @@
+name: Automatic Fetch
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Add upstream
+        run: git remote add upstream https://github.com/dfgz2022/dfgz2022.github.io
+      - name: Verify
+        run: git remote -v
+      - name: Fetch
+        run: git fetch upstream 
+      - name: Checkout
+        uses: actions/checkout@v2
+      - run: git config --global user.name "ssmzhn"
+      - run: git config --global user.email "ssmzhn@163.com"
+      - name: Merge
+        run: git reset --hard upstream/main
+      - name: Push
+        run: git push -f
