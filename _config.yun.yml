@@ -45,13 +45,6 @@ waline:
   serverURL: https://comment.sundownfruit.tech/
   # visitor: true
   comment: false
-  SMTP_SERVICE: Outlook365
-  SMTP_USER: namesetter@outlook.com
-  SMTP_PASS: SBMicrosoft114514
-  SMTP_SECURE: False
-  SMTP_NAME: 2022级丰中快乐屋
-  SMTP_URL: https://dfgz2022.github.io/
-  AUTHOR_EMAIL: ssmzhn@163.com
 
 #  crossorigin: anonymous
 
