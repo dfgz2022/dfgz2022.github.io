@@ -40,10 +40,9 @@ comment:
     - 若没有本文 Issue，您可以使用 Comment 模版新建。
   candidates:
     - waline
-    - utterances
 waline:
   enable: true
-  serverURL: https://dfgz-comment.vercel.app
+  serverURL: https://comment.sundownfruit.tech/
   # visitor: true
   comment: false
 
@@ -57,7 +56,7 @@ waline:
 #        async>
 #</script>
 footer:
-  since: 2021
+  since: 2022
   live_time:
     enable: true
     prefix: 这个博客运行了
