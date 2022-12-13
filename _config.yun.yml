@@ -74,7 +74,7 @@ katex:
 
 #默哀
 mourn:
-  enable: true
+  enable: false
   days:
     - "4-5"
     - "12-13"
