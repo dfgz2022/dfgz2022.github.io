@@ -45,11 +45,8 @@ waline:
   serverURL: https://comment.sundownfruit.tech/
   # visitor: true
   comment: false
-  texRenderer: (blockMode, tex) =>
-    katex.renderToString(tex, {
-      displayMode: blockMode,
-      throwOnError: false,
-    })
+  locale:
+    placeholder: 建议在上方邮箱框中填入自己的邮箱，以便收到回复提醒
 
 
 #  crossorigin: anonymous
