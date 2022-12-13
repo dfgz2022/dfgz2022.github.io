@@ -45,6 +45,12 @@ waline:
   serverURL: https://comment.sundownfruit.tech/
   # visitor: true
   comment: false
+  texRenderer: (blockMode, tex) =>
+    katex.renderToString(tex, {
+      displayMode: blockMode,
+      throwOnError: false,
+    })
+
 
 #  crossorigin: anonymous
 
