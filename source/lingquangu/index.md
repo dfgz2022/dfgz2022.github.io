@@ -2,6 +2,7 @@
 layout: pages
 title: 灵泉谷
 date: 2022-12-13 10:00:00
+katex: true
 tags:
   - 卷狗
 ---
